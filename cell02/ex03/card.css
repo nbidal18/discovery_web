@@ -1,0 +1,61 @@
+.title {
+	text-align: center;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	padding: 20px 0px 0px 0px;
+}
+
+table {
+	width: auto;
+	border-style: none;
+	border-color: black;
+	box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.20);
+}
+
+.intra_name {
+	text-align: center;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 15px 0px 15px 0px;
+}
+
+.level {
+	text-align: center;
+	color: rgb(133, 133, 133);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px; font-weight: bold;
+	padding: 0px 0px 15px 0px;
+}
+
+.city {
+	text-align: center;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px 0px 20px 0px;
+}
+
+.icons {
+	padding: 0px 0px 20px 0px;
+}
+
+.fix_icons_links {
+	text-decoration: none;
+}
+
+.contact {
+	background-color: #000000;
+	text-align: center;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 0px 15px 0px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}

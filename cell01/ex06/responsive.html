@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Responsive Table
+        </title>
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+            table {
+                height: 100%;
+                width: 100%;
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+            .green-box {
+                background-color: rgb(160, 240, 160);
+                color: black;
+            }
+            .red-box {
+                background-color: rgb(214, 138, 138);
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <table class=".full-height">
+            <tr>
+                <th class="red-box">
+                    First cell
+                </th>
+                <th class="green-box">
+                    Second cell
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
